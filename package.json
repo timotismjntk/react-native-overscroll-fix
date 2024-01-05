@@ -1,6 +1,6 @@
 {
   "name": "@timotismjntk/react-native-overscroll-fix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "an android scrollView decorator for support bounce",
   "main": "index.js",
   "scripts": {
