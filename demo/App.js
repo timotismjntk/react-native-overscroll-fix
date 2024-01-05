@@ -12,7 +12,7 @@ import {
   ScrollView
 } from 'react-native';
 
-import OverScroll from '@timo/react-native-overscroll-fix';
+import OverScroll from '@timotismjntk/react-native-overscroll-fix';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
