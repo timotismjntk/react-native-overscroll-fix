@@ -7,11 +7,11 @@ OverScroll support bounce feature for Android ScrollView.
 
 ## Installation
 ```
-npm install @timo/react-native-overscroll-fix --save
+npm install @timotismjntk/react-native-overscroll-fix --save
 ```
 or
 ```
-yarn add @timo/react-native-overscroll-fix
+yarn add @timotismjntk/react-native-overscroll-fix
 ```
 
 ## Usage
