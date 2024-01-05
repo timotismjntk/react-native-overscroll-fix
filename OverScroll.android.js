@@ -1,16 +1,23 @@
 'use strict';
 
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 import { requireNativeComponent} from 'react-native';
 
-var OverScrollNative = requireNativeComponent('OverScroll', OverScroll);
+const OverScrollNative = requireNativeComponent('OverScroll', OverScroll);
 
-export default class OverScroll extends Component {
-  static propTypes = {
-    bounce: PropTypes.bool
-  }
+const OverScroll = (props) => {
+  const {
+    bounce = true,
+    onOverScroll = () => {}
+  } = props;
 
-  render () {
-    return <OverScrollNative {...this.props} />
-  }
-}
+  return (
+    <OverScrollNative 
+      bounce={bounce}
+      onOverScroll={onOverScroll}
+      {...props} 
+    />
+  );
+};
+
+export default OverScroll;
