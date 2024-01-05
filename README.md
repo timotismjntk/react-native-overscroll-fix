@@ -7,23 +7,23 @@ OverScroll support bounce feature for Android ScrollView.
 
 ## Installation
 ```
-npm install @unpourtous/react-native-overscroll --save
+npm install @timo/react-native-overscroll-fix --save
+```
+or
+```
+yarn add @timo/react-native-overscroll-fix
 ```
 
 ## Usage
-First, add PopupStub as sibling node of you Root Node
 ``` js
-export default class example extends Component {
-  render () {
-    return (
-      <OverScroll style={styles.container}>
-        {/* Your root node */}
+export default function App() {
+  return (
+    <OverScroll style={styles.container}>
         <ScrollView>
           ...
         </ScrollView>
-      </OverScroll>
-    )
-  }
+    </OverScroll>
+  );
 }
 ```
 
