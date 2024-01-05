@@ -1,4 +1,4 @@
-# react-native-overscroll
+# @timotismjntk/react-native-overscroll-fix
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
