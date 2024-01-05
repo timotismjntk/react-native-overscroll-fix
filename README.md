@@ -16,6 +16,8 @@ yarn add @timotismjntk/react-native-overscroll-fix
 
 ## Usage
 ``` js
+import OverScroll from '@timotismjntk/react-native-overscroll-fix'
+
 export default function App() {
   return (
     <OverScroll style={styles.container}>
